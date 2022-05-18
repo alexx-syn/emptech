@@ -1,0 +1,39 @@
+@import './vars.css';
+@import './header.css';
+@import './schools.css';
+@import './buttons.css';
+@import './chat.css';
+
+html, body {
+  background-color: var(--main-color);
+  margin-bottom: 20px;
+}
+
+a {
+  color: var(--ranked-color) !important;
+  text-decoration: none;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 25px;
+}
+
+.GreenText {
+  color: var(--qualified-color)
+}
+
+.BlueText {
+  color: var(--ranked-color)
+}
+
+.GrowingImage {
+  transition: ease-in-out;
+  transition-duration: .2s;
+}
+
+.GrowingImage:hover {
+  transform: scale(105%);
+}

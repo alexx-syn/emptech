@@ -1,0 +1,46 @@
+.Chat .UserInfo {
+  display: flex;
+  flex-direction: row;
+
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Chat .UserImg {
+  border-radius: 50%;
+  border: 2px solid var(--text-color-title);
+
+  width: 64px;
+  height: 64px;
+}
+
+.Chat .Text {
+  color: var(--text-color-title);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Chat .Data {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.Chat .Boxes {
+  display: flex;
+  flex-direction: column;
+
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.Boxes .Box {
+  background-color: var(--box-color);
+  max-width: 300px;
+
+  padding: 12px 10px 12px 10px;
+  border-radius: 10px;
+
+  font-size: 14px;
+}
